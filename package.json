@@ -1,0 +1,19 @@
+{
+  "name": "bikeshare-visualizer-api",
+  "version": "1.0.0",
+  "description": "An express.js backend for the bikeshare visualizer application",
+  "main": "src/index.js",
+  "author": "Shaun Jacobsen",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^7.11.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.0.0",
+    "nodemon": "^1.19.1"
+  },
+  "scripts": {
+    "dev": "nodemon index.js"
+  }
+}
